@@ -1,0 +1,11 @@
+number = input("Введите положительное четырёхзначное число")
+
+thousands = number[0]
+hundreds = number[1]
+tens = number[2]
+ones = number[3]
+
+print('Цифра в позиции тысяч равна:', thousands)
+print('Цифра в позиции сотен равна:', hundreds)
+print("Цифра в позиции десяток:", tens)
+print("Цифра в позиции единиц равна:", ones)
