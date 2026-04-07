@@ -1,0 +1,8 @@
+import math
+
+xdeg = float(input())
+
+xrad = math.radians(xdeg)
+
+result = math.sin(xrad) + math.cos(xrad) + math.tan(xdeg)**2
+print(result)
