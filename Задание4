@@ -1,0 +1,9 @@
+n = int(input("Введите число школьников: "))
+k = int(input("Введите количество мандаринов: "))
+
+kazhdomu = k // n
+
+ostatok = k % n
+
+print('По', kazhdomu, 'достанется каждому')
+print(ostatok, 'останется в корзине')
