@@ -1,4 +1,4 @@
 seat_number = int(input('Введите номер места: '))
-A = 4
-compartment_number = (seat_number - 1) // A + 1
+seats_per_compartment = 4
+compartment_number = (seat_number - 1) // seats_per_compartment + 1
 print('Место', seat_number, 'находится в купе', compartment_number)
