@@ -1,10 +1,9 @@
-import math
+import math 
 
-x = float(input("Введите действительное число x: "))
+x1 = float(input())
+x2 = float(input())
+y1 = float(input())
+y2 = float(input())
 
-floor_x = math.floor(x)
-ceil_x = math.ceil(x)
-
-result = floor_x + ceil_x
-
-print(result)
+distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+print(distance) 
