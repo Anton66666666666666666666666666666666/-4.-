@@ -1,0 +1,7 @@
+vsegominutes = int(input("Введите количество минут: "))
+
+hours = vsegominutes // 60
+
+minutes = vsegominutes % 60
+
+print(vsegominutes, 'мин - это', hours, 'часов', minutes, 'мин')
